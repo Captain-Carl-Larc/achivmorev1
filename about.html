@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About-Achiv</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body class="bg-primary text-white fs-5">
+   <!--  navigation bar container -->
+   <div class="">
+    <nav class="navbar my-nav navbar-expand-md ps-md-3 ps-md-3 navbar-dark bg-dark ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">ACHIV<span id="logo-span" class="fw-bold">MORE</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active fs-5" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  active fs-5 text-primary fw-bold" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fs-5" href="events.html">Events</a>
+              </li>
+              <li class="nav-item dropdown active fs-5 text-white">
+                <a class="nav-link dropdown-toggle" href="learn.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Learn
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="financial.html">Financial</a></li>
+                  <li><a class="dropdown-item" href="personal-development.html">Personal development</a></li>
+                  <li><a class="dropdown-item" href="careers.html">Careers</a></li>
+                  <li><a class="dropdown-item" href="academics.html">Academics</a></li>
+                  <li><a class="dropdown-item" href="health.html">Health & Wellness</a></li>
+<!--                       <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fs-5" href="contact-us.html">Contact</a>
+              </li>  
+            </ul>
+          </div>
+        </div>
+      </nav>
+</div>
+   <!--  container for welcome banner -->
+   <div class="px-4 h2 bg-danger welcome-banner">
+    <p>Welcome to Achiv. We hold your hand and help you reach your goals easier and faster</p>
+   </div>
+  <!--  container for small intro -->
+  <div class="px-4 intro-cont border-bottom border-2 border-dark">
+    <h3 class="px-4">About Achiv</h3>
+    <div class="py-3">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum ipsum labore modi vitae ea laboriosam quas tempore facere, incidunt esse quod in repudiandae ab. Expedita voluptatem tempora tenetur asperiores maxime.</p>
+        <p class="lead-hidden-about" id="lead-hidden-about-p">Achiv was founded in 2024 by Stephen Ka<span>...</span></p>
+        <p class="hidden-about d-none" id="hidden-about-p">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo veritatis eaque ipsum error quae voluptas, perferendis quaerat, doloribus aperiam minima molestiae quidem quasi expedita reiciendis ipsam adipisci enim esse suscipit corrupti? Ea nisi dolor accusantium odit vitae ad molestias accusamus dolorum maxime officia odio molestiae unde, cumque libero, exercitationem rem porro quos tempora magnam voluptate distinctio atque? Corrupti, corporis! Omnis?
+        </p>
+    </div>
+    <div class="pb-4">
+        <button class="btn btn-dark px-2 py-1  rounded-4" id="about-toggle-btn" onclick="openMoreAbout()">Read more</button>
+    </div>
+  </div>
+<!--  mission vision and purpose -->
+<div class="px-4 py-4 bg-danger">
+    <div class="row">
+        <div class="col-md-4">
+            <h3 class="text-dark">mission</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum id pariatur et tenetur sapiente dicta deserunt aspernatur aperiam commodi illo?</p>
+        </div>
+        <div class="col-md-3">
+            <h3 class="text-dark">Vision</h3>
+            <p>To be the number 1 partner of young kenyans in achieving their dreams.</p>
+        </div>
+        <div class="col-md-5">
+            <h3 class="text-dark">Purpose</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis excepturi quisquam et voluptatibus non corporis placeat quibusdam veritatis fugiat ut, obcaecati maiores neque quae culpa deleniti sit, nulla praesentium vel quia adipisci. Perspiciatis fugiat repellendus aliquid dolor illo atque eaque.</p>
+        </div>
+    </div>
+</div>
+
+<!-- div containing our story -->
+<div class="px-4 py-3 bg-info">
+    <div class="row our-story-cont">
+        <h3 class="text-dark">Our story</h3>
+    </div>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo reiciendis reprehenderit voluptatum dolorum aut natus, voluptatem, a perspiciatis quis modi, facilis aspernatur? Alias rerum ratione magni, consequuntur quam deleniti, quibusdam sed incidunt fugit numquam obcaecati, illo nesciunt aspernatur voluptatum suscipit. Laboriosam optio ducimus quas esse cupiditate reprehenderit quam corrupti? Quam.            
+        </p>
+        <p class="d-none" id="hidden-our-story-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. A nam in esse excepturi amet non accusamus beatae cupiditate quod animi error minus praesentium veniam assumenda cum illum, exercitationem reiciendis delectus.</p>
+        <div class="btn-cont-our-story-toggle">
+            <button id="our-story-toggle-btn" onclick="readMoreStory()" class="btn btn-dark">Read more</button>
+        </div>
+
+    </div>
+</div>
+
+<!-- footer section -->
+<div class="px-4 py-3 bg-info border-top border-bottom border-dark border-2">
+    <div class="row ">
+        <div class="col-2">
+           <a href="#"><i class="bi bi-facebook"></i></a> 
+        </div>
+        <div class="col-2">
+            <a href="#"><i class="bi bi-whatsapp"></i></a>
+        </div>
+        <div class="col-2">
+            <a href="#"> <i class="bi bi-tiktok"></i></a>
+        </div>
+        <div class="col-2">
+            <a href="#"><i class="bi bi-youtube"></i></a> 
+        </div>
+        <div class="col-2">
+            <a href="#"> <i class="bi bi-twitter-x"></i></a>
+        </div>
+        <div class="col-2">
+            <a href="#"><i class="bi bi-instagram"></i></a> 
+        </div>
+    </div>
+</div>
+<div class="bg-danger px-4 py-3">
+  <div class="row gx-2">    
+    <div class="col-4 col-md-2 col-lg-1 ps-0 fs-5">
+      <h3 class="text-white">Links</h3>
+      <ul class="margin-c">
+        <li >
+          <a href="#" class="fw-medium text-dark">support</a>
+        </li>
+        <li>
+          <a href="" class="fw-medium text-dark">partner</a>
+        </li>
+        <li>
+          <a href="#" class="fw-medium text-dark">News</a>
+        </li>
+        <li>
+          <a href="#" class="fw-medium text-dark">Privacy</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-8 col-md-4 col-lg-5">
+      <h4 class="text-white">Contact</h4>
+      <ul class="margin-c">
+        <li class="text-white"><address><span class=" text-primary"><i class="bi bi-geo-alt-fill"></i></span>P.O BOX,1418-90200 KITUI</address></li>
+        <li class="text-white mb-2"><span class="pe-1 text-primary"><i class="bi bi-telephone-fill"></i></span>(+254) 793764993</li>
+        <li class="text-white"><a href="#" class="text-white"><i class="bi bi-envelope-at-fill"></i> <span class="pe-1">Email us</span></a></li>
+      </ul>
+    </div>
+    <div class="col-12 col-md-6  col-lg-6">
+      <p class="h3 text-white">Get free inspiration motivation and education to your mail</p>
+      <div class="input-group">
+        <input type="email" class="form-control" placeholder="Enter your email">
+        <span class="input-group-btn">
+        <button class="btn btn-dark" type="submit">Subscribe</button>
+        </span>
+      </div>
+    </div>
+    </div>
+  </div>
+<!--   copyrights -->
+<div class="bg-primary px-4 py-3">
+  <div class="row copyrights">
+    <p class="">&copy; Achiv 2024 - All rights reserved</p>
+  </div>
+  
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>

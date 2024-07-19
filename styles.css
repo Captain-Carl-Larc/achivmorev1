@@ -1,0 +1,77 @@
+#logo-span{
+    color: orange;
+}
+body{
+    background-color: orange;
+}
+a{
+    text-decoration: none;
+}
+.blog-post-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ul,ol{
+    list-style: none;
+}
+.copyrights p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.welcome-banner{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    background: url(banner-photo.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-blend-mode: hard-light,multiply;
+}
+.intro-cont,.our-story-cont h3,.btn-cont-our-story-toggle,.events-head-cont,.gallery-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.events-holder-cont{
+    justify-content: space-around;   
+}
+#navbarDropdown{
+    color: white;
+}
+body{
+    background-color: orange;    
+}
+.margin-c{
+    margin: 0;
+    padding: 0;
+}
+
+#what-we-offer{
+    margin: 0rem 2rem 0rem 0rem ;
+    padding: 0;
+    list-style: decimal;
+    /* background: blue; */
+}
+#what-we-offer li{
+    margin:0rem 0rem 0rem 1rem;
+}
+.my-font{
+    font-size: 1.2rem;
+}
+.our-reviews{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: pink;   
+}
+
+/* BLOGS STYLING */
+#blogs-side-bar{
+    height: fit-content;
+}
